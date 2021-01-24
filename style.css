@@ -1,0 +1,87 @@
+body{
+	/*background-color: #000000;*/
+	/*background-image: radial-gradient(315deg, #000000 0%, #414141 74%);*/
+	/*background-image: radial-gradient(#000 , #000, #0d0d0d);*/
+	background-attachment: fixed;
+	color: white;
+	font-family: "Fort-Book";
+	background-repeat: no-repeat;
+
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 54%, rgba(34,34,34,1) 100%);
+
+	/*background-image: linear-gradient(to bottom, #000000 0%, #1c1c1c 100%);*/
+}
+#tittle {
+	clear: both;
+	margin: 5px;
+	padding-top: 30px;
+	font-size: 100px;
+	text-align: center;
+	color: #A9A9A9;
+	font-family: "Avant-Gard";
+
+}
+#menu{
+	padding: 20px;
+	text-align: center;
+}
+#menu ul {
+	padding:0px;
+    margin:0px;
+    list-style:none;
+}
+#menu ul li{
+	display: inline;
+}
+#borderleft a:hover{
+	border-top-left-radius: 7px;
+
+}
+#bordercenter a:hover{
+	border-radius: : 7px;
+}
+#borderright a:hover{
+	border-top-right-radius: 7px;
+}
+#menu ul li a{
+	padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    color: white;
+    text-decoration: none;
+    border-bottom:1px solid #A9A9A9;
+}
+#menu ul li a:hover {
+	background-color: white;
+    color: black;
+    /*border-bottom:3px solid #A9A9A9;*/
+    transition: 1s;
+}
+#wrap {
+	margin-bottom: 20px;
+}
+
+
+#conteudo {
+	text-align: center;
+	font-size: 10px;
+	/*border-radius: silver, solid, 2px;*/
+}
+footer{
+	padding: 0px;
+	text-align: center;
+	overflow: hidden;
+	width: 100%;
+	border-top: 1px solid #A9A9A9;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+/* li, a:link, a:visited, a:hover, a:active{
+	color: green;
+	text-decoration: none;
+	display: inline-block;
+	text-align: right;
+} */ 
